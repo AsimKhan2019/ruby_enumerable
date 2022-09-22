@@ -9,7 +9,7 @@ module MyEnumerable
     true
   end
 
-  def filter(*)
+  def filter(&block)
     result = []
     each { |item| result << item if block.call(item) }
     result
