@@ -1,4 +1,3 @@
-require 'pry'
 require_relative 'my_list'
 
 list = MyList.new [1, 2, 3, 4]
@@ -11,5 +10,3 @@ list.any? { |e| e == 5 }
 
 list.filter(&:even?)
 list.filter(&:odd?)
-
-binding.pry
