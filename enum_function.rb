@@ -1,4 +1,4 @@
-require_relative 'MyList'
+require_relative 'my_list'
 
 list = MyList.new [1, 2, 3, 4]
 
