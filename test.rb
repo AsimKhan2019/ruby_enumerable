@@ -1,6 +1,6 @@
 require 'pry'
 
-list = [5,7,8,9]
+list = [5, 7, 8, 9]
 
 list.all? { |e| e < 10 }
 list.all? { |e| e > 10 }
